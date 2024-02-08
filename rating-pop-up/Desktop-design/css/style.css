@@ -1,0 +1,99 @@
+body {
+  background-color: #141519;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.pop-up {
+  height: 540px;
+  width: 620px;
+  background-color: #1c232d;
+  background-image: linear-gradient(#262a31, #1c232d);
+  border-radius: 10%;
+  margin: 0px auto;
+  margin-top: 10%;
+}
+
+h1 {
+  margin: 20px 0px 30px 40px;
+  font-size: 40px;
+}
+
+.please {
+  font-size: 20px;
+  margin-left: 40px;
+  line-height: 1.6;
+  color: #747d86;
+}
+
+img {
+  background-color: #262f38;
+  height: 30px;
+  width: 30px;
+  margin-top: 25px;
+  margin-left: 35px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.rating-numbers {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  color: #747d86;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.properties {
+  background-color: #262f38;
+  margin: 25px;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rating-numbers:hover {
+  color: rgb(255, 0, 0);
+}
+
+.properties:hover {
+  background-color: #fa8430;
+}
+
+button {
+  background-color: #fa8430;
+  color: white;
+  font-size: 30px;
+  height: 60px;
+  width: 550px;
+  float: left;
+  clear: both;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: 0px;
+  transition: 0.3s;
+  letter-spacing: 8px;
+  cursor: pointer;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.properties:hover p {
+  color:  #fff;
+}
+
+.properties:checked  ~ .rating {
+  background-color: #fa8430;
+}
+
+button:hover { 
+  background-color: white;
+  color: #fa8430;
+}

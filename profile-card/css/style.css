@@ -1,0 +1,35 @@
+body {
+  background-color: #19a1ad;
+  margin: 0px;
+}
+
+.top-left {
+  background-color: #2bbfc3;
+  background-image: linear-gradient(to top right, #19a1ad, #2bbfc3);
+  box-shadow: 10px 10px 100px #18a0ac;
+  height: 600px;
+  width: 1000px;
+  margin: 0px;
+  margin-bottom: 100px;
+  float: left;
+  border-bottom-right-radius: 600px;
+}
+
+.bottom-right {
+  background-color: #2bbfc3;
+  background-image: linear-gradient(to bottom right, #2bbfc3, #19a1ad);
+  box-shadow: 10px 10px 100px #18a0ac;
+  height: 600px;
+  width: 800px;
+  float: right;
+  margin-top: 16.7%;
+  border-top-left-radius: 300px;
+}
+
+header {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+  float: left;
+}
