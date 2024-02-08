@@ -1,35 +1,94 @@
 body {
-  background-color: #19a1ad;
-  margin: 0px;
-}
-
-.top-left {
-  background-color: #2bbfc3;
-  background-image: linear-gradient(to top right, #19a1ad, #2bbfc3);
-  box-shadow: 10px 10px 100px #18a0ac;
-  height: 600px;
-  width: 1000px;
-  margin: 0px;
-  margin-bottom: 100px;
-  float: left;
-  border-bottom-right-radius: 600px;
-}
-
-.bottom-right {
-  background-color: #2bbfc3;
-  background-image: linear-gradient(to bottom right, #2bbfc3, #19a1ad);
-  box-shadow: 10px 10px 100px #18a0ac;
-  height: 600px;
-  width: 800px;
-  float: right;
-  margin-top: 16.7%;
-  border-top-left-radius: 300px;
+  background-color: #f3eae3;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
-  background-color: #fff;
-  width: 400px;
-  height: 400px;
-  margin: 0px auto;
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  margin: 10% auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 100px rgb(185, 185, 185);
+}
+
+img {
+  width: 450px;
+  height: 600px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   float: left;
+  margin-right: 50px;
+}
+
+h2{
+  color: #a9abb6;
+  font-weight: lighter;
+  letter-spacing: 8px;
+  padding-top: 30px;
+}
+
+h1 {
+  color: #21232d;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #a9abb6;
+  font-size: 24px;
+  margin-top: 0px;
+  line-height: 1.25;
+}
+
+.price{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.now {
+  color: #3f7f69;
+  font-size: 50px;
+  margin: 0;
+  float: left;
+}
+
+.not {
+  color: #a9abb6;
+  font-size: 25px;
+  text-decoration: line-through;
+  margin: 0 0 8px 0;
+  padding: 0px;
+
+}
+
+.button {
+  background-color: #3d8168;
+  width: 350px;
+  height: 70px;
+  box-shadow: default;
+  float: left;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #093525;
+  transition-duration: 0.3s;
+}
+
+.add {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.cart {
+  width: 25px;
+  height: 25px;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
