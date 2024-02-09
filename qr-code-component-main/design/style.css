@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(213, 225, 239, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 14rem 22.5rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+}
+
+img {
+  width: 66%;
+  height: auto;
+  border-radius: 1rem;
+  margin-left: 4.4rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: rgba(104, 111, 125, 255);
+  font-size: 1.35em;
+  text-align: center;
+  width: 25rem;
+}
+
+p {
+  color: rgba(150, 155, 161, 255);
+  font-size: 0.95rem;
+  text-align: center;
+}
