@@ -12,6 +12,12 @@
   --ff: 'Inter', sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--clr-off-black);
   color: var(--clr-white);
@@ -41,7 +47,7 @@ p {
 
 .profile {
   background-color: var(--clr-dark-grey);
-  max-width: 350px;
+  max-width: 450px;
   padding: 1.25rem 3rem;
   border-radius: 1rem;
   text-align: center;
