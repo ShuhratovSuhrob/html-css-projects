@@ -3,6 +3,7 @@
   --clr-grey: hsl(0, 0%, 20%);
   --clr-dark-grey: hsl(0, 0%, 12%);
   --clr-off-black: hsl(0, 0%, 8%);
+  --clr-yellow: #c8e765;
   --fs-p: 0.9375rem;
   --fs-h: 1.125rem;
   --fw-400: 400;
@@ -17,6 +18,21 @@ body {
   font-family: var(--ff);
 }
 
+h1 {
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #cdcdcd;
+}
+
+.location {
+  color: var(--clr-yellow);
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -25,8 +41,8 @@ body {
 
 .profile {
   background-color: var(--clr-dark-grey);
-  max-width: 300px;
-  padding: 1.5rem 2rem;
+  max-width: 350px;
+  padding: 1.25rem 3rem;
   border-radius: 1rem;
   text-align: center;
   margin-inline: auto;
@@ -44,6 +60,13 @@ button {
   padding: 0.75rem;
   font-family: inherit;
   color: inherit;
-  width: 17.5rem;
+  width: 20rem;
   border-radius: 1ch;
+}
+
+button:hover {
+  background-color: #c4f82a;
+  color: var(--clr-grey);
+  cursor: pointer;
+  transition: 0.25s;
 }
