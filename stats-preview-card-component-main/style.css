@@ -21,6 +21,7 @@
 body {
   background-color: var(--clr-very-dark-blue-main-bg);
   color: var(--clr-white);
+  font-family: var(--ff);
 }
 
 .container {
@@ -41,9 +42,42 @@ img {
   float: right;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .text-container {
-  padding: 5rem;
+  padding: 4rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-weight: var(--fw-700);
+  line-height: 1.5;
+}
+
+p {
+  color: var(--clr-slightly-transparent-white-stat-heading);
+  line-height: 2;
+  font-family: 8px;
+}
+
+.change-color {
+  color: var(--clr-soft-violet-accent);
+}
+
+.stats h2 {
+  float: left;
+  margin-top: 3.5rem;
+}
+
+.stats-padding {
+  margin-left: 7.35rem;
+}
+
+.stats p {
+  float: left;
+}
+
+.stats-padding-p {
+  padding-left: 4.8rem;
 }
