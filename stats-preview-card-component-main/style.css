@@ -1,0 +1,49 @@
+:root {
+  --clr-very-dark-blue-main-bg: hsl(233, 47%, 7%);
+  --clr-dark-desaturated-blue-card-background: hsl(244, 38%, 16%);
+  --clr-soft-violet-accent: hsl(277, 64%, 61%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-slightly-transparent-white-main-pg: hsla(0, 0%, 100%, 0.75);
+  --clr-slightly-transparent-white-stat-heading: hsla(0, 0%, 100%, 0.6);
+  --fs: 0.915rem;
+  --ff: 'Inter', sans-serif;
+  --ff-2: 'Lexend Deca', sans-serif;
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-very-dark-blue-main-bg);
+  color: var(--clr-white);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100dvh;
+  border-radius: 1rem;
+}
+
+.profile-container {
+  background-color: var(--clr-dark-desaturated-blue-card-background);
+  margin-inline: auto;
+  border-radius: 0.5rem;
+}
+
+img {
+  float: right;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.text-container {
+  padding: 5rem;
+}
