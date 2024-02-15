@@ -1,0 +1,10 @@
+:root {
+  --clr-cayn: hsl(179, 62%, 43%);
+  --clr-bright-yellow: hsl(71, 73%, 54%);
+  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-grayish-blue: hsl(218, 22%, 67%);
+  --fs: 1rem;
+  --ff: 'Karla', sans-serif;
+  --fw-400: 400;
+  --fw-700: 700;
+}
