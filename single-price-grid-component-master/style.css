@@ -62,6 +62,7 @@ h1 {
 .left-text {
   background-color: var(--clr-cayn);
   max-width: 350px;
+  height: 14rem;
   width: 50%;
   float: left;
   box-sizing: border-box;
@@ -103,6 +104,7 @@ button {
   background-color: var(--clr-light-cayn);
   max-width: 350px;
   width: 50%;
+  height: 14rem;
   float: left;
   box-sizing: border-box;
   color: var(--clr-white);
@@ -118,10 +120,10 @@ p {
   color: var(--clr-light-cyan-p);
 }
 
-.right-text_h3 {
+/* .right-text_h3 {
   padding-bottom: 1rem;
 }
 
 .right-text_p {
-  padding-bottom: 1.6rem;
-}
+  padding-bottom: 1.5715rem;
+} */
